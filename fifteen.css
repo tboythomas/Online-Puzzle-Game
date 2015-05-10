@@ -1,0 +1,29 @@
+
+body{
+	font-family: monospace;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea{
+	position: relative;
+	height: 400px;
+	width: 400px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.parts{
+	background-image: url(background.jpg);
+	position: absolute;
+	border: 5px solid black;
+	height: 90px;
+	width: 90px;
+	font-size: 40pt;
+}
+
+.red{
+	cursor: pointer;
+	border-color: red;
+	color: red;
+}
